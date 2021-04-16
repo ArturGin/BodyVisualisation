@@ -1,5 +1,6 @@
 from django.db import models
 
+
 class Disasters(models.Model):
     year = models.IntegerField(blank=True, null=True)
     disaster_type = models.CharField(max_length=100, blank=True, null=True)
